@@ -1,0 +1,7 @@
+- name: Add user keys
+  hosts: 52.54.116.87
+  #become: true
+  #become_method: sudo
+  remote_user: ubuntu
+  roles:
+    - users
