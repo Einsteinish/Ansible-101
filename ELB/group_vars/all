@@ -1,0 +1,6 @@
+region: us-east-1
+instance_type: t2.nano
+ami: ami-49c9295f  # Ubuntu 14.04 LTS
+app_code_user: "ubuntu" # remote user
+env: demo
+pem_key: einsteinish # key.pem
